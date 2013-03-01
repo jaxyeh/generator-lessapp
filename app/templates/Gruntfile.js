@@ -125,19 +125,19 @@ module.exports = function (grunt) {
         less: {
             dist: {
                 options: {
-                    paths: ["app/components"],
+                    paths: ['app/components'],
                     yuicompress: true
                 },
                 files: {
-                    ".tmp/styles/main.css": "<%%= yeoman.app %>/styles/main.less"
+                    '.tmp/styles/main.css': '<%%= yeoman.app %>/styles/main.less'
                 }
             },
             server: {
                 options: {
-                    paths: ["app/components"]
+                    paths: ['app/components']
                 },
                 files: {
-                    ".tmp/styles/main.css": "<%%= yeoman.app %>/styles/main.less"
+                    '.tmp/styles/main.css': '<%%= yeoman.app %>/styles/main.less'
                 }
             }
         },
